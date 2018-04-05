@@ -1,0 +1,71 @@
+header {
+  background-color: rgba(244,244,244,0.8);
+  padding: 0;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 110px;
+  width : 100%;
+  font-family: Segoe Print,Segoe;
+  font-size: 72px;
+  text-align: center;
+}
+
+/* nu inteleg de ce de ce nu imi apare ca la heder pe tot ecranu
+pentru ca la wrap desi ii dau cu left si right 0 px totusi nu functioneaza
+nu stiu ce sa fac partrada o distanta de vroeo 5 pixeli chiar daca ii zic ca e important sa nu lase nici
+un pixel distanta */
+
+#wrap {
+  background-color: rgba(222,222,222);
+  margin: 0 0 0 0!important;
+  padding-top: 150px;
+  left: 0 !important;
+  right: 0 !important;
+
+}
+
+/* cand am pus linc la background-image nu mi-a mai afisat imaginea la fel
+cand era cu fisierul de pe calculator imi arata imaginea pe tot ecranu de al stanga la dreapta
+iar acum mi-o arata dor in interiorul divului
+nu stiu cum sa o fac din nou sa apare pe tot ecranu de la stanga la dreapta */
+.imaginea {
+  background-image: url("https://lh3.googleusercontent.com/LN2cQun6G9lYuG3LHCOYo-CAFiSGkwg6cvrdt0Eejc3xiOm99z9UE5QtMtd7NKR1FQQ9pF1LBhn2Ls3W2Kzggs9Sw1uWG2g0MnU8kBrCZDKdRcsaBW4gipfz-M9nVv1yapP6HKTqnRD1ceTF3ma0vPz7eTHzioJFTfjIkzfapLLjM0Hed6tuP6Mqh3tDqGerc8aOrqGBqrTHCov6MvGUsqxElpW6MqcpXI4ytcSFHGN9StzeJAC-qAP_L3Y8Hz6vjBY4bA5zLCrHlVixFEYUOGMKpmfHGvKLR67FN70Qam2W0M72KiDGBZ-eLf32vVJ15C7xglBj8EV2r2HgKc01poBAAIjbENponBWDkxEV5qqSxgSAzE0wjA49EMNl05Q8g5XKMiWGb6pelSnkPAfwZELQa-2ccsZq9VQGjvyVnecJfMY8WA8x8mQQ2t_UvYSpkeXkhXpdqp-XWIIE1iO0r4Jk-ZSQmM3KtZxpBEkHlNRs_FyeM0B8HfYvetdrRnibZ3DkoPOEjzuGPx3HCQnFCYbRzCyF8d2LOYpBLG-A6PanFeLv-qvscYkcYZZB3LFdx2GtlG2vqZ9zPrFMSkiE3mXcONSG8wRsR2ESxrA=w1043-h637-no");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0px;
+  overflow: hidden;
+  height: 450px;
+}
+
+.textul {
+  min-height: 500px;
+  width: 80%;
+  padding: 0 10%;
+  display: flex;
+}
+
+.prezentare {
+  width: 70%;
+  font-family: Segoe Print,Segoe;
+}
+
+#blogs {
+  width: 30%;
+  font-family: Segoe Print,Segoe;
+}
+
+#blogs a {
+  text-decoration: none;
+
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
