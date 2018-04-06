@@ -73,3 +73,7 @@ nu stiu cum sa o fac din nou sa apare pe tot ecranu de la stanga la dreapta */
 ul {
   list-style-type: none;
 }
+
+.prezentare a {
+   text-decoration: none;
+}
