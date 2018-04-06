@@ -63,7 +63,11 @@ nu stiu cum sa o fac din nou sa apare pe tot ecranu de la stanga la dreapta */
 
 #blogs a {
   text-decoration: none;
+  display: block;
+}
 
+#blogs a:hover {
+  background-color: rgba(222,222,222);
 }
 
 .center {
