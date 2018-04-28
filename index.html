@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tema 1 despre Blog</title>
-    <link rel="stylesheet" href="style.css"> 
 
-  </head>
-  <body>
-    <!-- Implement a static HTML page, the first page of your blog. Use your imagination to fill it with
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tema 1 despre Blog</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Implement a static HTML page, the first page of your blog. Use your imagination to fill it with
     content that you like, but be smart and try to provide interesting info about you, what you like to do,
     what are your hobbies and so on and maybe a picture with you so your colleagues can recognize you.
 
@@ -19,58 +21,99 @@
 
     Use in your code as many attributes of the following: title, href, src, width, height, alt, id -->
 
-    <header>
-      Radu Sebastian
-    </header>
-    <div id="wrap">
-      <!-- nu inteleg de ce inline width nu functioneaza
-    in google developers tools nu imi apare ca asi fi selectat ceva -->
-      <div class="imaginea" height="500px" width="200px" >
 
-      </div>
-      <div class="textul">
-          <div class="prezentare">
-            <p>Ma numesc Radu Sebastian.</p>
-            <p>Am 33 de ami.</p>
-            <p>Ca hobiuri am pescuitul, calaritul, sa urmaresc ultimele descoperiri stintifice, descoperiri
-              din medicina, energie regenerabila s.a. </p>
-            <p> De asemenea mai imi place natura si sa urmaresc evenimente despre drumeti sau
-              despre protectia naturii cu inpaduriri sau ecologizari ale unor zone si in urma vizualizari unei
-              imagini
-            </p>
-            <p class="center"><img src="https://scontent.fotp3-1.fna.fbcdn.net/v/t31.0-8/17039000_605573959651625_518013809776223341_o.jpg?_nc_cat=0&oh=ebc56b963fa543562203fcec1dc0ea0c&oe=5B6C54B7" alt="Imagine a oltului din judetu Brasov"
-            title="Oltul in dreptu comunitati Comana" width="100%" height="autuo"></p>
-            <p>M-am hotarat ca ar fi cazu sa fac ceva. Si desi nu am facut prea multe din ce mi-am propus totusi am facut
-              o pagina de <a href="https://www.facebook.com/Campanie-pentru-curatirea-apelor-in-Judetu-Brasov-605566106319077/?ref=bookmarks" target="_blank">facebook</a>
-              pe care postez stiri despre dezastrele ecologice pentru a ajuta la constientizarea problemei.
-              Si la unele din postari am mi de vizualizari. Si desi am doar cateva reacti, pentru ca asa se intanmpla,
-              din 10 persoane doar una rectioneaza la ce vede, totusi sper ca in timp problema sa fie constientizata de
-              cat mai multe persoane. Si lucrurile sa inceapa sa se schimbe in bine.
-            </p>
-          </div>
-          <nav id="blogs">
-            <p>Blogurile colegilor:</p>
+  <!--
+    Use in your code as many elements of the following: article, aside, section, header, footer, nav, main
 
-            <ul>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4475&course=385" target="_blank">	Catalin Alexandru Lazaroiu</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4717&course=385" target="_blank">Ivan Alina</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4467&course=385" target="_blank">Caravasile Bogdan</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4977&course=385" target="_blank">Carbunaru Razvan</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4288&course=385" target="_blank">Paduraru Tania</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4097&course=385" target="_blank">Cristolovean Razvan-Petru</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4976&course=385" target="_blank">Apetrei Mihaela-Cristina</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4191&course=385" target="_blank">Florin Nitu</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5490&course=385" target="_blank">Dragomir Bogdan</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5120&course=385" target="_blank">Moarcas Monica</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5470&course=385" target="_blank">Balaban Alexandru</a> </li>
-              <li> <a href="https://levitchiv.github.io/index.html" target="_blank">Levițchi Vadim</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5554&course=385" target="_blank">Samosca Dragos</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4955&course=385" target="_blank">Saramet Andrei</a> </li>
-              <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4968&course=385" target="_blank">Luchian Paul</a> </li>
-            </ul>
-          </nav>
+    Try to have at least one element that's positioned using float, relative, absolute and fixed position values.
+
+    Use other CSS properties to style your content, keeping in mind to avoid repetition, and to keep them well organized. -->
+  <header>
+    <div class="heder">
+      <a href="#" class="toggle" id="navToggle">
+        <img src="meniu.png" alt="meniu" width="60px;">
+      </a>
+      <div class="semnatura">
+        Radu Sebastian
       </div>
+      <nav class="meniu" id="meniu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Posts</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+  <section>
+    <!-- nu inteleg de ce inline width nu functioneaza
+    in google developers tools nu imi apare ca asi fi selectat ceva -->
+    <div class="imaginea" height="500px" width="200px"></div>
+    <article>
+      <main>
+        <p>Ma numesc Radu Sebastian.</p>
+        <p>Am 33 de ami.</p>
+        <p>Ca hobiuri am pescuitul, calaritul, sa urmaresc ultimele descoperiri stintifice, descoperiri din medicina, energie regenerabila s.a. </p>
+        <p> De asemenea mai imi place natura si sa urmaresc evenimente despre drumeti sau despre protectia naturii cu inpaduriri sau ecologizari ale unor zone si in urma vizualizari unei imagini
+        </p>
+        <p class="float"><img src="https://scontent.fotp3-1.fna.fbcdn.net/v/t31.0-8/17039000_605573959651625_518013809776223341_o.jpg?_nc_cat=0&oh=ebc56b963fa543562203fcec1dc0ea0c&oe=5B6C54B7" alt="Imagine a oltului din judetu Brasov" title="Oltul in dreptu comunitati Comana"
+            width="100%" height="autuo"></p>
+        <p>M-am hotarat ca ar fi cazu sa fac ceva. Si desi nu am facut prea multe din ce mi-am propus totusi am facut o pagina de <a href="https://www.facebook.com/Campanie-pentru-curatirea-apelor-in-Judetu-Brasov-605566106319077/?ref=bookmarks">facebook</a>          pe care postez stiri despre dezastrele ecologice pentru a ajuta la constientizarea problemei. Si la unele din postari am mi de vizualizari. Si desi am doar cateva reacti, pentru ca asa se intanmpla, din 10 persoane doar una rectioneaza la ce
+          vede, totusi sper ca in timp problema sa fie constientizata de cat mai multe persoane. Si lucrurile sa inceapa sa se schimbe in bine.
+        </p>
+      </main>
+      <aside class="aside">
+        <nav id="blogs">
+          <p class="bc">Blogurile colegilor:</p>
 
-  </body>
+          <ul>
+            <li> <a href="https://catalinalexandru89.github.io/CatalinAlexandru.github.io/" target="_blank">	Catalin Alexandru Lazaroiu</a> </li>
+            <li> <a href="https://apryllya.github.io" target="_blank">Ivan Alina</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4467&course=385" target="_blank">Caravasile Bogdan</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4977&course=385" target="_blank">Carbunaru Razvan</a> </li>
+            <li> <a href="https://TaniaUngureanu.github.io" target="_blank">Paduraru Tania</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4097&course=385" target="_blank">Cristolovean Razvan-Petru</a> </li>
+            <li> <a href="https://mihaelaapetrei.github.io/Blog/" target="_blank">Apetrei Mihaela-Cristina</a> </li>
+            <li> <a href="https://fnitu.github.io/" target="_blank">Florin Nitu</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5490&course=385" target="_blank">Dragomir Bogdan</a> </li>
+            <li> <a href="https://monicaro2018.github.io/BlogM2/" target="_blank">Moarcas Monica</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=5470&course=385" target="_blank">Balaban Alexandru</a> </li>
+            <li> <a href="https://levitchiv.github.io/index.html" target="_blank">Levițchi Vadim</a> </li>
+            <li> <a href="https://dragosbv77.github.io" target="_blank">Samosca Dragos</a> </li>
+            <li> <a href="http://platforma.scoalainformala.ro/user/view.php?id=4955&course=385" target="_blank">Saramet Andrei</a> </li>
+            <li> <a href="http://puftu.github.io" target="_blank">Luchian Paul</a> </li>
+            <li> <a href="https://bearafterabeer.github.io/bucu.github.io/" target="_blank">Vasilatos Daniel</a> </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="img">
+        <ul>
+          <li> <a href="#"> <img src="https://lh3.googleusercontent.com/1kb7lqZ0DS3cSCbBQUSSQP86ZQ4Itgr3SqNC45giSdtDxKg7GMe39_xPH8DWS6cfAEKQ8JPADGLKw0FhYPrtvk8p3jU9BIYr8J1Oc1YDK_7Qov56kF-6gf7CbUbnXeiFHV0PV5X1HiWfbwfoke7lBPcj6MgN2SJZdQVMNg8SdPbn8uTAeIqEFONvJsY_sXO3bDdEned0ek6MloA1OpHAASrXcZnpQ6VN4HhWqWej1OOVQG132EeoyZG5t7TprUhkcwsO1Zd_OK-vyoaXebj5ZATda4KPN-QrfMNacoZtgFIVSFxbe1hu2BTye9jsAE4eawearWzqIRNHxU2nA0OWFGo36IjL-HBfazACj5D7z5uTmXQ5dTfhUTMOUKc2hQxXejbZJ1jTy6j37r7AYeeES3poMZ7NYsI2I1VMIkeSvSPQ2N9TWxDuEd9l1sYXw7lGLCo2xkMRT6DOR5ZHnL_JDAOJXxoW9hyXjmMTO7XPaR8QoAmcGSC--Gd4VYFcdeh5-bQmgHK1MXI8XvFldogdFgUumGGSwlfDW29iGiuv3LGwq5qqjolDzSOcVTdGAAF-dMqtUyosT9e4MPz3rav986fymzbQdewoau0coUg=w720-h478-no" alt="No internet conection"> </a></li>
+          <li> <a href="#"> <img src="https://lh3.googleusercontent.com/m3KVr1fnNyoNh60--7JXl_ZHU5EwC8NoOSahIe4ypqdDm3wmGzt3mcOeR1MufhNON9Q2A3rTKpQqFb2cbmnqbQZoaBis9ujfi8Lh1c6HOy92l-dGcvrdYV89hFdlGW0zUhDhwrjZw_OMh0sIiirvlMztYUvcB2PgkZTp52yoeE3hbMUm0jdhNhAVC1wQJIw5WxsOQI_NrJC9vePAcVZ_tVmiw2DUlHufJu9hetwCmz-1T0b-hlq-_bknBIWwbsPaU2PR11bH1452zgmrxIn8jwMrNDah5nr2mfqRd6CjWjQsrTJoNDPqjoIWVoPBeg8Jr3OL2jx9UfiPCFIPMxuhCDRXkRczKPkXAzGDvZ0otDQ_iRVnyowERr74YgxtI418ENalxR5ijRnWMuDLFiEG_itJeNXHctZhU9Aqkh65gb-ZgRUG2Ni2jpkDMkBaKrCJGvMSEqkT-btL2i8A8S62s14iPkpagaGlkLN9-EUgtP9Kj43_RdQpm9x5tSQajbmGXyR4yl1CFgmA1ps3A9zoOwh19_bTsdssZwWQUlb3YJtZABHp724wu-mYU2kXFMh2VtWo5kM2xog-OAGiCiKIvvIYHjHG0Iy_l-HZs-c=w720-h478-no" alt="No internet conection"> </a></li>
+        </ul>
+
+        <ul>
+          <li> <a href="#"> <img src="https://lh3.googleusercontent.com/j5qOGSGbEeE1fvjpKboE0X3jXlvydzcdRHJbSfHkparnqfRw3exP0A8yIVmyNL86leOUVjtWw8MkCQmnJzHgQGiimM66KiaxCLrcgRxKHbaLRGPcjmvPF_nctwUiqhVw7y85X3u59zlcMx7ORUCzBEUEXz3tap4qmrWuL-O43OHBG-bfYt8hhmxdpcywK9yv9GO72sXscDjxNCTeKH9MYJb5uQ8oa6SKWtB14DLVHXNIusOQGNZ0-pIagkcgBYMg-3wxKKD8YINOHhSkMK53uUWW-A7vJjBFbngdP3-etYTIJ43pGXvL_lo6THFgPE6p34_EXxy3OXyyLxLYrjB9TNn6EwRq2pS9vd69CYhj5Jrw08P9jXKhnDYzeN20nf4RJBUzcAwxcsSYCBa9mnxZ9lZLgLjCY8nHbA0cMzht4vqRGjysEzNMnaYgYVnAYl3eVghgSZU4O14E_Q-Lw9ACg0utgWHQWs99EG0nsj9O345XBJ4YHT1suOFndU4kyV9gFgHkvCRfdjKEHrvT6Kidpf97ji9qIUzQJlrjZBiF5Ex1ZSEoCI2WtzHw3vBaKIBSUg6h9FRamAY1XBTi24IRJEFlBuQRaPRV6eF6rQE=w720-h478-no" alt="No internet conectoin"> </a></li>
+          <li> <a href="#"> <img src="https://lh3.googleusercontent.com/r_dcX7KrkvA5NeEZNSHBZ6F--2Md2nCiL3UHJsuBEX8NPGtU36FadW7319KjaUqhJlIMyUA_hv8L-5CtKBYDG_psFhabMkA0UVSMpMMrAabhFg1vTIDfQmembOo9k9xEYO-wyjU4C85mCeZ31ZXGV3t0iBoo0VynUSFyhGSK0JEvFvyio7Qu3WGrZcIsg2fDhop11jFByrt07NAKpcKeZ3NrtYv-0fOFyT8f_SRFjpvBix7js1ryowogSr1e7BubH4G5absEHQbkb3Oa_IyXzYtVgzFkVT1pMnadei1UYCJIGQidNIwvSGRiv1-vafxC0l-PGDtQYOai6A4nFUiD0jMLIbAAp882JAcGE27SP8_Y1r_eYnetnCd4mRRHvoktA-9BteG3of9TYPAcaTCntTIXpiXu1RFKoHevEUprfD7OK_7xTKAAxbSw6P1f_prFzX7gjdXFZ_zWSAOKiEXLgD4SxzYNe8TD0CwmhGYX26bnTlnVh29vfcumRTK1Tkti4yDvZDFHWy7Q6MBrzPQljLiRGNQ1G8kvgbiI7C0kcF4Zqf8_-wG2_RIQ_orVSlf7bD1qcG4zO4ab575IvunkxGNyantDkLBnnKJBkwQ=w720-h478-no" alt="No internet conection"> </a></li>
+        </ul>
+      </div>
+    </article>
+  </section>
+  <footer>
+    <ul class="conturi">
+      <li> <a href="https://www.facebook.com/profile.php?id=100008500782831" target="_blank" class="fb">fb</a> </li>
+      <li> <a href="https://www.linkedin.com/in/sebastian-radu-72a642153/" target="_blank" class="in">in</a> </li>
+    </ul>
+
+  </footer>
+  <script type="text/javascript">
+    var navMeniu = document.querySelector("#navToggle");
+    var meniu = document.querySelector("#meniu")
+    navMeniu.addEventListener('click', (e) => {
+      meniu.classList.toggle('activ');
+    })
+  </script>
+</body>
+
 </html>
